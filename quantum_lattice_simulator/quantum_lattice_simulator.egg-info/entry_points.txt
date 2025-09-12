@@ -1,0 +1,2 @@
+[console_scripts]
+quantum-lattice = quantum_lattice:launch_gui

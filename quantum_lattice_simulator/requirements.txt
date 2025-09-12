@@ -1,0 +1,15 @@
+# Core scientific computing
+numpy>=1.20.0
+scipy>=1.7.0
+
+# Optional but recommended for full functionality
+matplotlib>=3.3.0
+plotly>=5.0.0
+numba>=0.55.0
+
+# System monitoring
+psutil>=5.8.0
+
+# Development and testing (optional)
+pytest>=6.0.0
+pytest-cov>=2.10.0
