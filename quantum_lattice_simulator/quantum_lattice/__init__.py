@@ -11,9 +11,9 @@ __author__ = "Advanced Physics Simulation Team"
 # Main imports for easy access
 from .core.simulator import *
 from .core.parameters import *
-from .physics.nuclear import *
+from .core.physics.nuclear import *
 from .gui.interface import *
-AdvancedSimulatorGUI = SimulatorGUI
+# AdvancedSimulatorGUI = SimulatorGUI
 # Convenient shortcuts
 def create_simulator(nucleus_a="Au197", nucleus_b="Au197", energy_gev=200.0):
     """Quick simulator creation with common defaults."""
@@ -30,7 +30,8 @@ def launch_gui():
 
 def list_nuclei():
     """List available nuclei in the database."""
-    return list(NuclearDatabase.get_available_nuclei())
+    pass
+    # return list(NuclearDatabase.get_available_nuclei())
 
 # Version info
 def version_info():
