@@ -4,6 +4,7 @@ quantum_lattice/__init__.py
 quantum_lattice/core/__init__.py
 quantum_lattice/core/parameters.py
 quantum_lattice/core/simulator.py
+quantum_lattice/core/time_stepping.py
 quantum_lattice/gui/__init__.py
 quantum_lattice/gui/interface.py
 quantum_lattice/numerical/__init__.py

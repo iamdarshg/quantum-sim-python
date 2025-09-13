@@ -1,5 +1,5 @@
 """GUI modules."""
 
-from .interface import SimulatorGUI, ParticleVisualizer
+from .interface import *
 
-__all__ = ['SimulatorGUI', 'ParticleVisualizer']
+__all__ = ['SimulatorGUI', 'ParticleVisualizer', 'AdvancedSimulatorGUI']

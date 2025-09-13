@@ -9,11 +9,11 @@ __version__ = "2.0.0"
 __author__ = "Advanced Physics Simulation Team"
 
 # Main imports for easy access
-from .core.simulator import QuantumLatticeSimulator
-from .core.parameters import SimulationParameters
-from .physics.nuclear import NuclearDatabase
-from .gui.interface import SimulatorGUI
-
+from .core.simulator import *
+from .core.parameters import *
+from .physics.nuclear import *
+from .gui.interface import *
+AdvancedSimulatorGUI = SimulatorGUI
 # Convenient shortcuts
 def create_simulator(nucleus_a="Au197", nucleus_b="Au197", energy_gev=200.0):
     """Quick simulator creation with common defaults."""
