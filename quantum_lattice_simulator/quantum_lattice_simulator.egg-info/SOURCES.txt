@@ -9,7 +9,9 @@ quantum_lattice/gui/core/parameters.py
 quantum_lattice/gui/core/simulator.py
 quantum_lattice/gui/core/time_stepping.py
 quantum_lattice/gui/core/physics/__init__.py
+quantum_lattice/gui/core/physics/advanced_nuclear_forces.py
 quantum_lattice/gui/core/physics/nuclear.py
+quantum_lattice/gui/core/physics/nuclear_force_integration.py
 quantum_lattice/numerical/__init__.py
 quantum_lattice/numerical/methods.py
 quantum_lattice_simulator.egg-info/PKG-INFO

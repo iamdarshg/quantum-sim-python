@@ -9,8 +9,8 @@ __version__ = "2.0.0"
 __author__ = "Advanced Physics Simulation Team"
 
 # Main imports for easy access
-from .core.simulator import *
-from .core.parameters import *
+from .core.gui.simulator import *
+from .core.gui.parameters import *
 from .core.physics.nuclear import *
 from .gui.interface import *
 # AdvancedSimulatorGUI = SimulatorGUI
