@@ -1,15 +1,38 @@
+# Enhanced Requirements for Ultra-High Precision Nuclear Physics
+
 # Core scientific computing
-numpy>=1.20.0
-scipy>=1.7.0
+numpy>=1.20.0            # Advanced array operations and linear algebra
+scipy>=1.7.0             # Scientific computing (integration, ODEs, special functions)
+matplotlib>=3.3.0        # Plotting and visualization
 
-# Optional but recommended for full functionality
-matplotlib>=3.3.0
-plotly>=5.0.0
-numba>=0.55.0
+# Optional high-performance computing
+mpi4py>=3.0.0           # MPI parallel computing support
+numba>=0.55.0           # JIT compilation for performance
+cython>=0.29.0          # C extensions compilation
 
-# System monitoring
-psutil>=5.8.0
+# Data analysis and I/O
+pandas>=1.3.0           # Data analysis and manipulation
+h5py>=3.0.0             # HDF5 file format support
+tables>=3.6.0           # Hierarchical datasets
 
-# Development and testing (optional)
-pytest>=6.0.0
-pytest-cov>=2.10.0
+# GUI and interface
+tkinter                 # Built-in GUI framework (usually included with Python)
+
+# Development and testing
+pytest>=6.0.0           # Testing framework
+pytest-cov>=2.12.0     # Coverage testing
+black>=21.0.0           # Code formatting
+flake8>=3.9.0           # Code linting
+
+# Documentation
+sphinx>=4.0.0           # Documentation generation
+sphinx-rtd-theme>=0.5.0 # Read the Docs theme
+numpydoc>=1.1.0         # NumPy style docstring support
+
+# System dependencies (install via package manager):
+# Ubuntu/Debian:
+#   sudo apt-get install libgsl-dev libopenmpi-dev python3-dev
+# CentOS/RHEL:
+#   sudo yum install gsl-devel openmpi-devel python3-devel
+# macOS:
+#   brew install gsl open-mpi

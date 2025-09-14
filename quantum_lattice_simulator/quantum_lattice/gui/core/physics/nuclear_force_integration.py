@@ -12,7 +12,7 @@ import time
 
 # Import the advanced nuclear force models
 try:
-    from advanced_nuclear_forces import (
+    from .advanced_nuclear_forces import (
         AdvancedNuclearForceSolver,
         create_nuclear_force_solver,
         NucleonState
